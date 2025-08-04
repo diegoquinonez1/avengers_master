@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación de la API</title>
+    <script src="js/app.js"></script>
+    <meta name="description" content="Documentación de la API para interactuar con nuestros servicios.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta name="keywords" content="API, documentación, endpoints, autenticación, usuarios, productos, pedidos">
+    <meta name="author" content="Equipo de Desarrollo">
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+    <meta name="robots" content="index, follow">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        pre {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        </style>
+</head>
+
+<body>
+    <h1>Documentación de la API</h1>
+    <p>Esta es la documentación de la API.</p>
+    <h2>Introducción</h2>
+    <p>Bienvenido a la documentación de la API. Aquí encontrarás toda la información necesaria para interactuar con
+        nuestros servicios.</p>
+    <h2>Autenticación</h2>
+    <p>Para acceder a la API, necesitas autenticarte utilizando un token de acceso. Asegúrate de incluir el token en el
+        encabezado de tus solicitudes.</p>
+    <h2>Endpoints</h2>
+    <p>A continuación se detallan los endpoints disponibles:</p>
+    <ul>
+        <li><strong>/api/v1/usuarios</strong> - Obtiene una lista de usuarios.</li>
+        <li><strong>/api/v1/usuarios/{id}</strong> - Obtiene los detalles de un usuario específico.</li>
+        <li><strong>/api/v1/productos</strong> - Obtiene una lista de productos.</li>
+        <li><strong>/api/v1/productos/{id}</strong> - Obtiene los detalles de un producto específico.</li>
+        <li><strong>/api/v1/pedidos</strong> - Crea un nuevo pedido.</li>
+        <li><strong>/api/v1/pedidos/{id}</strong> - Obtiene los detalles de un pedido específico.</li>
+    </ul>
+    <h2>Ejemplos de Solicitudes</h2>
+    <p>A continuación se muestran algunos ejemplos de cómo realizar solicitudes a la API:</p>
+    <pre>
+curl -X GET "https://api.ejemplo.com/api/v1/usuarios" -H
+"Authorization
+        </pre>
+</body>
+
+</html>
